@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Keep An Eye",
+    "description": "Sensitive Content Manager",
+    "version":"0.1",
+    "icons":{
+        "128": "icon128x.png",
+        "48": "icon48x.png",
+        "16": "icon16x.png"
+    },
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "icon16x.png"
+    },
+    "permissions":[
+	    "storage"
+    ],
+    "host_permissions": [
+	    "<all_urls>"
+    ]
+
+}
