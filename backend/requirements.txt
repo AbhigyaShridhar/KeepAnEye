@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+alt-profanity-check
+pyjwt
+twilio
+psycopg2-binary
+sqlalchemy
+sqlalchemy-cockroachdb
+python-decouple
