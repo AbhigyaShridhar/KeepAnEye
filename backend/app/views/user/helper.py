@@ -51,9 +51,10 @@ def sendOTP(phone: str) -> Dict:
         return {
             "message": "OTP sent"
         }
-    except:
+    except Exception as e:
         return {
-            "message": "Invalid number"
+            "message": "Invalid number",
+            "error": str(e)
         }
 
 def verifyNumber(phone: str, otp: str) -> bool:
