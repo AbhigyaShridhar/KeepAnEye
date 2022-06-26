@@ -21,6 +21,6 @@ Routes:
 
 To run the project:
  - go to the frontend directory
- - ctr + shift + f and search for 127.0.0.1:8000, and replace that with either the about given **API** route or the your custom route (if you create one for testing)
+ - ctr + shift + f and search for 127.0.0.1:8000, and replace that with either the about given **API** route or your custom route (if you create one for testing)
  - Add the extension to your google chrome profile by simply dropping the `frontend` directory in the add box
  - Authenticate
