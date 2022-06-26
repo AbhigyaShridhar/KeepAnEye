@@ -18,3 +18,9 @@ Routes:
  - ```/auth```: Verifies OTP, if the user with given phone number doesn't exist, creates the user else logs them in
  - ```/check```: Takes a string and returns if the string contains trigger words
  - ```/notify```: Sends a notification to the authenticated number along with the URL which triggered the notification
+
+To run the project:
+ - go to the frontend directory
+ - ctr + shift + f and search for 127.0.0.0:8000, and replace that with either the about given **API** route or the your custom route (if you create one for testing)
+ - Add the extension to your google chrome profile by simply dropping the `frontend` directory in the add box
+ - Authenticate
