@@ -13,10 +13,13 @@
         "default_icon": "icon16x.png"
     },
     "permissions":[
-	    "storage"
+        "storage",
+        "tabs"
     ],
     "host_permissions": [
 	    "<all_urls>"
-    ]
-
+    ],
+    "background": {
+    "service_worker": "background.js"
+  }
 }
